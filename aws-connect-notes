@@ -1,0 +1,15 @@
+1.) chmod 600 ptyler649.pem 
+2.) ssh -v -i ptyler649.pem ubuntu@54.201.181.145
+3.) exit logs you out once you are into the machine
+
+file transfer notes
+
+1.) scp -v -i ptyler649.pem sample.html 
+ubuntu@54.201.181.145:/home/ubuntu/sample.html
+
+This will transfer source to the target aws machine
+
+2.) scp -v -i ptyler649.pem ubuntu@54.201.181.145:/home/ubuntu/try.html 
+try.html
+
+
