@@ -14,6 +14,7 @@
 /* layout */
 #main-wrap {
     /* overflow to handle inner floating block */
+    font-size: 3em;
     //overflow: hidden;
 }
 
@@ -37,14 +38,14 @@
 }
 
 #customers td, #customers th {
-    font-size: 3em;
+    //font-size: 3em;
     border: 1px solid grey;
     padding: 3px 7px 2px 7px;
     color: black;
 }
 
 #customers th {
-    font-size: 2.7em;
+    //font-size: 2.7em;
     text-align: left;
     padding-top: 5px;
     padding-bottom: 4px;
