@@ -1,9 +1,11 @@
 <?php
+
+// activated from search button where field turns red
+
 $fname=$_REQUEST["fname"];
 
 $db = new SQLite3('db/test.db');
 
-//$testfname = "'ACTIVE_FLAG_LOOKUP'";
 //below adds qoutes to allow search to work correctly
 $testfname = '\''.'%'.$fname.'%'.'\'';
 
@@ -30,8 +32,5 @@ while ($row = $results->fetchArray()){
 	</tr>';
 }
 echo '</table>';
-
-//echo 'test';
-//echo $fname;
 
 ?>

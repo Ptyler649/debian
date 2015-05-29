@@ -1,4 +1,7 @@
 <?php
+
+// php that runs for the previous and next button presses
+
 $fname=$_REQUEST["fname"];
 
 $db = new SQLite3('db/test.db');

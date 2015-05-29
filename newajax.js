@@ -54,7 +54,7 @@ function MakeRequest()
 }
 
 
-
+// next button moves record count on by 10 rows and uses testsql.php
 function SDGMakeRequest($input)
 {
   var xmlHttp = getXMLHttp();
@@ -91,6 +91,8 @@ function SDGMakeRequest($input)
 }
 
 
+
+// previous button moves record count back by 10 rows and uses testsql.php
 function SDGMakeRequestBack($input)
 {
   var xmlHttp = getXMLHttp();
@@ -104,14 +106,11 @@ function SDGMakeRequestBack($input)
     }
   }
 
-  //sdata = $input[0];
-
   if(a < 5){a=1};
   if(a > 5){a=a-10};
   if(! a){a=a+1};
 
   sdata = a;
-
   
   xmlHttp.open("GET", "testsql.php?fname=" + sdata, true); 
   xmlHttp.send(null);
@@ -126,7 +125,7 @@ function SDGMakeRequestBack($input)
 }
 
 
-
+// search functionality turns search text field red and uses testsql2.php
 function handleit()
 {
   document.getElementById("txt").style.backgroundColor="red";
