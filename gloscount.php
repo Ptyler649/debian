@@ -1,10 +1,10 @@
 <?php 
 $fname=$_REQUEST["fname"];
 
-// input blog text in order to loop through
-$dir = '/home/ubuntu/blog/';
+// input count text in order to loop through
+$dir = '/var/www/northmount.org/db/';
 $text = 'some text here';
-$filename = 'blah.txt';
+$filename = 'gloscount.txt';
 
 $file = fopen($dir . $filename, "a");
 fwrite($file, $fname . "\n");
@@ -22,7 +22,6 @@ while(!feof($myfile)) {
         // outputs blog line below
         //echo "$line\r\n";
         echo nl2br("$line\n\r");
-        
 }
 fclose($myfile);
 

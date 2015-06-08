@@ -153,6 +153,34 @@ function handleit()
 
 
 
+// loads current row count from the text file gloscount.txt within db folder
+function getrowcount()
+{
+  document.getElementById("glostotcount").style.backgroundColor="red";
+
+  var xmlHttp = getXMLHttp();
+
+  totsdata = 1;
+
+  xmlHttp.onreadystatechange = function()
+  {
+    if(xmlHttp.readyState == 4)
+    {
+      HandleResponse(xmlHttp.responseText);
+    }
+  }
+
+  totsdata=1000;
+  //totsdata=document.getElementById("glostotcount").value;
+
+
+  xmlHttp.open("GET", "gloscount.php?fname=" + totsdata, true); 
+  xmlHttp.send(null);
+
+}
+
+
+
 function HandleResponse(response)
 {
   document.getElementById('ResponseDiv').innerHTML = response;
