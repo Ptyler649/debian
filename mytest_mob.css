@@ -1,0 +1,62 @@
+<style type="text/css">
+
+/* sizes */
+#main-wrap > div { 
+    //min-height: 450px;  
+}
+
+
+#header,
+#footer {
+    //min-height: 40px;
+}
+
+/* layout */
+#main-wrap {
+    /* overflow to handle inner floating block */
+    font-size: 3em;
+    //overflow: hidden;
+}
+
+#sidebar {
+    //float: left;
+    //width: 20%;
+}
+
+#content-wrap {
+    //font-size: 3em;
+    //float: left;
+    //width: 80%;
+}   
+
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+
+#customers td, #customers th{
+    border: 1px solid grey;
+    padding: 3px 7px 2px 7px;
+    color: black;
+
+    //col:nth-child(2n+3) {background: #CCC};
+
+    //nth-child(odd) {background: #CCC};
+    //nth-child(even) {background: #FFF};
+}
+
+
+
+#customers th {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    color: grey;
+}
+
+
+
+</style>
