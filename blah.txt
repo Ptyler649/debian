@@ -1,3 +1,11 @@
+22/06/2015 - Programmatically orchestrate the cloud with AWS Lamba and from this week you can also do this with Java. #java #aws http://t.co/dc0qRafypL
+11/06/2015 - The new AWS centric Data Warehouse with true scalability, #redshift, and #Looker.? Maybe!!! http://t.co/Fa0l4B6PCq
+11/06/2015 - Real-time streaming with #DataTorrent RTS much better than Storm or Spark? And now soon to be open source as well!!! #BigData
+04/06/2015 - Rarity Value plus market need inflate Big Data devs salary but should the whole of IT be more valued? #bigdata #Java http://t.co/OWsMvUnzWs
+01/06/2015 - LiteOS a new 10k operating system to run Internet of Things Devices, googles Brillo and others, the fight for IoT market is hotting up #IoT
+28/05/2015 - US Government is siding with copyrighting API's in the Oracle v Google fight. The implications are massive #bigdata http://t.co/WqKqr0EKYH
+26/05/2015 - Will Ubuntu go IPO? what does this leave the linux distribution community looking like? http://t.co/UsJhzyI15T
+20/05/2015 - Have a look at chirp.Io an incredible way to share your stuff.Share photos,webpages,contacts via ur speaker #bigdata
 20/05/2015 - Use e-learning tools to educate all users about treating data as an asset, and how data really should be utilized in enterprises #bigdata
 16/05/2015 - Gartner names IBM as the leader in the logical data warehouse. #bigdata http://t.co/se2vCst3HH
 15/05/2015 - Making interactive BI on Hadoop work. #jethrodata #BigData is the BI space about to be disrupted further? http://t.co/G4pk3hEwKG
@@ -8,14 +16,3 @@
 05/05/2015 - RT @elizabethusa: Award Winning & Best Training Course on LinkedIn: http://t.co/3MQTtzoFMX
 05/05/2015 - Vu Digitals Video-to-Data product breaks down a video by frame and identifies objects. Perfect tool as we become image centric? #bigdata
 01/05/2015 - I do hope the Microsoft Holo Lense meets expectations and it comes soon!!! Yet another source feed for BigData? But also good fun! #BigData
-30/04/2015 - Git 2.4 released today, with push to deploy and atomic pushes as new features. Have fun!!! #BigData #Java http://t.co/WPwq4P8ulP
-28/04/2015 - Debian 8 - Jessie released. Linux distributions underpin much of the cloud infrastructure and Debian underpins Ubuntu and others #BigData
-22/04/2015 - Machine learning the excuse to infuse AI into corporate systems but the big blocker is our own imagination? #bigdata http://t.co/AMBjVi1Oi7
-21/04/2015 - RabbitMQ Delayed Message Plugin is now available, in this world of micro services and SOA, queue technology is ever more important  #BigData
-21/04/2015 - use #Realm a mobile db competing with #sqlite & #coredata used on Apples  #iWatch at realm.io, how far behind can corp DWH be?  #bigdata
-15/04/2015 - Linux kernel 4.0 is now out, Linus says this is just a solid code release!
-15/04/2015 - Virtualbox beta release 5.0 available now.
-13/04/2015 - Spark - faster than map reduce and hive in many circumstances! But how cosy is is this relationship really to Hadoop? #BigData #DataBricks
-02/04/2015 - Off for Easter - have a good one everybody!! http://t.co/dGabS1VTHB
-01/04/2015 - Have a great day at AWS Summit - London #awscloud #bigdata
-01/04/2015 - The rise of the Internet of Things - are we heading for grey glob of Api interconnections? Do we need one framework to rule them all #java
